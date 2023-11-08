@@ -1,7 +1,5 @@
 ---
 - hosts: all
   tasks:
-    - name: update apt packages
-      apt:
-        upgrade: yes
-        update_cache: yes
+    - name: get etc hosts
+      command: cat /etc/hosts 

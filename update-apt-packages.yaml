@@ -1,5 +1,0 @@
----
-- hosts: all
-  tasks:
-    - name: get etc hosts
-      command: cat /etc/hosts 

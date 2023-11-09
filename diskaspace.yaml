@@ -1,6 +1,6 @@
 ---
 - name: check disk space
-  hosts: all
+  hosts: orchestration_machine
   tasks:
     - name: get disk usage
       command: df -h
